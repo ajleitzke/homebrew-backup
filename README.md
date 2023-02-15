@@ -20,3 +20,5 @@ Run the main.py file. Example:
 ```
 python3 main.py
 ```
+### Screenshots
+![Terminal displaying program output](https://i.ibb.co/2nq8qDF/image.png)
