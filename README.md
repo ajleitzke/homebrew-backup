@@ -1,5 +1,5 @@
 # Homebrew Backup
-Simple python program to save list of homebrew packages installed, and reinstall as needed. 
+Python program to save list of homebrew packages installed, and reinstall as needed. 
 
 ### Prerequisities
 * Homebrew installed
@@ -12,6 +12,8 @@ Example:
 ```
 git clone https://github.com/ajleitzke/homebrew-backup
 ```
+### Configuration
+Users may modify the directory used to save the package list. This allows users to backup their package list using a cloud service (such as Nextcloud, iCloud, OneDrive, Google Drive) if desired.
 
 ### Running
 Run the main.py file. Example:
