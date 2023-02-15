@@ -21,7 +21,7 @@ class Backup:
     # Prompt user to select an option
     def prompt(self):
         do = input(
-            Fore.RESET + "What would you like to do today?\n=================================\nS = Save package list\nI = Install packages from list\nM = Modify Save Location\nQ = Quit program\n=================================\n")
+            Fore.RESET + "What would you like to do today?\n=================================\nS = Save package list\nI = Install packages from list\nM = Modify save location\nQ = Quit program\n=================================\n")
         if do not in ["S", "I", "M", "Q"]:
             print(Fore.RED + "You have entered an invalid option. Please try again...")
             Backup.prompt(self)
