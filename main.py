@@ -1,10 +1,14 @@
 from colorama import Fore
 import pickle
 import os
+from pathlib import Path
 
 
 class Backup:
     def __init__(self):
+        if not os.path.exists('.storage/'):
+            os.makedirs('.storage/')
+        Path('.storage/var_storage.pk').touch(exist_ok=True)
         self.varStorage = ".storage/var_storage.pk"
         # Get preferred file save location, set to default if none
         try:
