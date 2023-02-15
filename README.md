@@ -13,7 +13,7 @@ Example:
 git clone https://github.com/ajleitzke/homebrew-backup
 ```
 ### Configuration
-Users may modify the directory used to save the package list. This allows users to backup their package list using a cloud service (such as Nextcloud, iCloud, OneDrive, Google Drive) if desired.
+Users may modify the directory used to save the package list by entering `M` in the prompt. This allows users to backup their package list using a cloud service (such as Nextcloud, iCloud, OneDrive, Google Drive) if desired.
 
 ### Running
 Run the main.py file. Example:
